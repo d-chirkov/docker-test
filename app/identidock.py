@@ -18,7 +18,7 @@ def mainpage():
     salted_name = salt + name
     name_hash = hashlib.sha256( salted_name.encode() ).hexdigest()
     
-    header = '<html><head><title>Identidock</title></head><body>'
+    header = '<html><head><title>Identidock 2</title></head><body>'
     body = '''
         <form method="POST">
         Hello <input type="text" name="name" value="{0}">
